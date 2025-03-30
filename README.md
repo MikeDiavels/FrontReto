@@ -44,3 +44,15 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+NOTA:
+Si llegan a tener problemas se eliminan la carpeta:
+node_modules
+y el archivo:
+package-lock.json
+
+para corregir los problemas de dependencias se reinstalan los modulos asi:
+npm install node --reinstall-packages-from=node
+npm install --legacy-peer-deps
+
+Muchas gracias!
